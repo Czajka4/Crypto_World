@@ -1,0 +1,25 @@
+import os
+
+PROJECT_NAME = os.getenv("PROJECT_NAME")
+
+# DB Options
+SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL")
+
+#   API Variables
+API_MANAGE_STR = os.getenv("API_MANAGE_STR")
+APP_URL = os.getenv("APP_URL")
+
+# Uvicorn start options
+UVICORN_APP_LOC = os.getenv("UVICORN_APP_LOC")
+UVICORN_HOST = os.getenv("UVICORN_HOST")
+UVICORN_PORT = os.getenv("UVICORN_PORT")
+
+# /crypto API - RAPID
+API_CRYPTO_RAPIDAPI_HOST = os.getenv("API_CRYPTO_RAPIDAPI_HOST")
+API_CRYPTO_RAPIDAPI_KEY = os.getenv("API_CRYPTO_RAPIDAPI_KEY")
+API_CRYPTO_RAPIDAPI_URL =  os.getenv("API_CRYPTO_RAPIDAPI_URL")
+ 
+# /cryptonews - BING
+API_CRYPTO_BING_HOST = os.getenv("API_CRYPTO_BING_HOST")
+API_CRYPTO_BING_KEY = os.getenv("API_CRYPTO_BING_KEY")
+API_CRYPTO_BING_URL =  os.getenv("API_CRYPTO_BING_URL")
